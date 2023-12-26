@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(font-awesome.min.css);
+@import url(normalize.css);
+
+
+/*banner*/
+.banner {
+ position: relative;
+min-width:100%;
+height: 700px;
+ overflow: hidden;
+}
+
+.banner > .slides {
+ width: 100%;
+ height: 100%;
+ position: absolute
+}
+.slides .pic {
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ overflow: hidden;
+/* left 속성은 jQuery로 적용*/
+}
+.slides .pic > img{
+	margin: 0 auto;
+	display: block;
+}
+/*.btn*/
+.banner .btn{
+	width: 1900px;
+	margin: 0 auto;
+}
+.banner .btn a,
+.banner .indicator a {
+ overflow: hidden
+}
+.banner .btn a:before,
+.banner .indicator a:before {
+ content: url(../img/sprites.png);
+ display: inline-block;
+ font-size: 0;
+ line-height: 0
+}
+
+.btn a {
+ position: absolute; 
+ width: 72px;
+ height: 72px;
+ top: 50%;
+/* margin-top: -36px;*/
+ left: 50%
+}
+.btn a:hover:before {
+ content: url(../img/sprites1.png);
+}
+
+.btn a.prev {margin-left: -650px}
+.btn a.prev:before {
+ margin-top: -20px
+}
+.btn a.next {margin-left: 570px}
+.btn a.next:before {
+ margin-top: -20px;
+ margin-left: -80px
+}
+
+.btn a.on {display: none}
+
+/*.indicator*/
+.indicator {
+ position: absolute;
+ height: 16px;
+ bottom: 30px;
+ left: 0;
+ right: 0;
+ text-align: center
+}
+.indicator a {
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ margin: 0 3px
+}
+.indicator a:before {
+ margin-left: -110px
+}
+
+.indicator a.on {
+ cursor: default
+}
+.indicator a.on:before {
+ margin-left: -130px
+}
+

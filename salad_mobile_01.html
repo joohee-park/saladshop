@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta http-equiv="X-UA-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/salad_mobile_01.css" />
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/salad_mobile.js"></script>
+
+    <title>클렌즈주스 목록페이지</title>
+  </head>
+
+  <body>
+    <header>
+      <button>
+        <img src="img/mobile_menu01.png" alt="메뉴" />
+      </button>
+      <h1>
+        <a href="salad_mobile.html"
+          ><img src="img/mobile_logo.png" alt="로고"
+        /></a>
+      </h1>
+      <p>
+        <a href="#"><img src="img/mobile_cart.png" alt="장바구니" /></a>
+      </p>
+    </header>
+    <!--트리거메뉴-->
+    <aside>
+      <nav>
+        <a href="salad_mobile.html"><img src="img/home.png" alt="home" /></a>
+        <a href="#">로그인</a>
+        <button class="xx">
+          <span>X</span>
+        </button>
+      </nav>
+      <div id="con01">
+        <p><img src="img/con01.png" alt="배송조회" />주문배송조회</p>
+        <p><img src="img/con02.png" alt="배송조회" />장바구니</p>
+        <p><img src="img/con03.png" alt="배송조회" />찜한상품</p>
+        <p><img src="img/con04.png" alt="배송조회" />최근본상품</p>
+      </div>
+      <div id="con02">
+        <div>
+          <img src="img/con05.png" alt="인기상품" />
+          <strong>BEST</strong>
+        </div>
+        <div>
+          <img src="img/con06.png" alt="새상품" />
+          <strong>NEW</strong>
+        </div>
+        <div>
+          <img src="img/con07.png" alt="세일" />
+          <strong>SALE</strong>
+        </div>
+        <div>
+          <img src="img/con08.png" alt="리뷰" />
+          <strong>REVIEW</strong>
+        </div>
+      </div>
+      <!--카테고리+아코디언효과부분-->
+      <div id="con03">
+        <p>카테고리</p>
+        <!--아코디언 메뉴시작!-->
+        <div id="accordian">
+          <ul>
+            <li>
+              <h3>클렌즈주스</h3>
+              <ul>
+                <li><a href="#">주스클렌즈</a></li>
+                <li><a href="#">해독주스</a></li>
+                <li><a href="#">청순워터</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3>과일</h3>
+            </li>
+            <li>
+              <h3>간식</h3>
+              <ul>
+                <li><a href="#">견과류</a></li>
+                <li><a href="#">시리얼</a></li>
+                <li><a href="#">유기농 요거트</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3>풀샐러드</h3>
+            </li>
+            <li>
+              <h3>로컬도시락</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--마이페이지시작!-->
+      <div id="con04">
+        <p>마이페이지</p>
+        <ul>
+          <li><a href="#">쿠폰 &amp; 적립금</a></li>
+          <li><a href="#">내정보</a></li>
+          <li><a href="#">나의 상품평</a></li>
+          <li><a href="#">나의 상품문의</a></li>
+          <li><a href="#">공지게시판</a></li>
+        </ul>
+      </div>
+      <div id="con05">
+        <p>
+          고객약속센터 <strong>바로연결</strong> <span>1588-1010</span>
+          <a href="#"></a>
+        </p>
+      </div>
+    </aside>
+
+    <!--본문-->
+    <div id="main">
+      <h2>Cleanse Juice</h2>
+      <span></span>
+      <p>
+        더 작은 병으로 더 많은 영양소를 담아내자 <br />샐러딩의 균형잡힌 클렌즈
+      </p>
+    </div>
+    <div id="contents">
+      <div class="nav">
+        <span>클렌즈주스 |</span>
+        <a href="#">주스클렌즈</a>
+        <a href="#">해독주스</a>
+        <a href="#">청순워터</a>
+
+        <select>
+          <option value="1">상품정렬</option>
+          <option>인기순</option>
+          <option>높은가격순</option>
+          <option>낮은가격순</option>
+        </select>
+      </div>
+      <div id="contents01">
+        <div class="menu1">
+          <a href="#">
+            <img src="img/jc01.png" alt="인기메뉴" />
+            <p>
+              중독성 강한 바베큐드레싱과 단백질이 어우러진 멕시칸 느낌의 샐러드
+            </p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span
+                >루꼴라 치킨 샐러드 165g<img src="img/best_icon.jpg" alt=""
+              /></span>
+              <strong>9,000원</strong>
+            </span>
+          </a>
+        </div>
+        <div class="menu">
+          <a href="#">
+            <img src="img/jc02.png" alt="인기메뉴" />
+            <p>균형잡힌 영양은 물론, <br />맛과 편리함을 갖춘 클렌즈주스</p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span>샐러딩 클렌즈 주스&#40;12가지맛&#41;<br />190m</span>
+              <strong>42,000원</strong>
+            </span>
+          </a>
+        </div>
+
+        <div class="menu1">
+          <a href="#">
+            <img src="img/jc03.png" alt="인기메뉴" />
+            <p>
+              중독성 강한 바베큐드레싱과 단백질이 어우러진 멕시칸 느낌의 샐러드
+            </p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span
+                >루꼴라 치킨 샐러드 165g<img src="img/best_icon.jpg" alt=""
+              /></span>
+              <strong>9,000원</strong>
+            </span>
+          </a>
+        </div>
+        <div class="menu">
+          <a href="#">
+            <img src="img/jc04.png" alt="인기메뉴" />
+            <p>균형잡힌 영양은 물론, <br />맛과 편리함을 갖춘 클렌즈주스</p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span>샐러딩 클렌즈 주스&#40;12가지맛&#41;<br />190m</span>
+              <strong>42,000원</strong>
+            </span>
+          </a>
+        </div>
+
+        <div class="menu1">
+          <a href="#">
+            <img src="img/jc05.png" alt="인기메뉴" />
+            <p>
+              중독성 강한 바베큐드레싱과 단백질이 어우러진 멕시칸 느낌의 샐러드
+            </p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span
+                >루꼴라 치킨 샐러드 165g<img src="img/best_icon.jpg" alt=""
+              /></span>
+              <strong>9,000원</strong>
+            </span>
+          </a>
+        </div>
+        <div class="menu">
+          <a href="#">
+            <img src="img/jc10.png" alt="인기메뉴" />
+            <p>균형잡힌 영양은 물론, <br />맛과 편리함을 갖춘 클렌즈주스</p>
+            <span class="cart"></span>
+            <span class="menu_txt">
+              <span>샐러딩 클렌즈 주스&#40;12가지맛&#41;<br />190m</span>
+              <strong>42,000원</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu01">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">></a>
+        <a href="#">>></a>
+      </div>
+    </div>
+
+    <!--푸터영역-->
+
+    <footer>
+      <nav>
+        <a href="#">샐러딩소개</a>
+        <a href="#">이용약관</a>
+        <a href="#">개인정보취급방침</a>
+        <a href="#">고객약속센터 | 1588-1010</a>
+      </nav>
+      <address>
+        법인(상호) : 샐러딩 | 대표자(성명) : 신담비 | 개인정보관리책임자 :
+        신담비(help@salading.co.kr)<br />
+        사업자등록번호 : 410-31-61891 [사업자 정보확인] | 통신판매업신고번호 :
+        2015-광주광산-0135
+        <br />주소 : 광주 광산구 하남동 799번지 SALADING | 고객약속센터 :
+        1588-1010 | 팩스 : 062-385-0427
+      </address>
+      <span>Copyright &copy; SALADING All right reserved.</span>
+    </footer>
+  </body>
+</html>
